@@ -1,0 +1,118 @@
+.boxmodel-a{
+    width: 50%;
+    border: medium solid gray;
+    padding: 20px;
+    margin: 40px;
+}
+
+
+.boxmodel-b{
+    width: 75% ;
+    border: 2px solid gray;
+}
+
+.perfect-circle{
+    width: 100px;
+    height: 100px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.perfect-circle-b{
+    width: 100px;
+    height: 100px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.testheight{
+    height: 70px;
+    width: 100px;
+    min-height: 150px;
+    min-width: 80;
+
+    margin-top: -50px;
+    margin-left: 20px;
+    background-color: cyan;
+
+    border: 5px solid red;
+}
+
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+
+.image-container {
+   
+    background-image: url("../images/bg_1.jpg");
+  }
+
+.simpleBanner{
+     height: 500px;
+    background-image: url("../images/bg_1.jpg");
+     background-repeat:no-repeat; 
+
+}
+
+.overlay {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+}
+.ul-menu{
+    list-style: none;
+    border: 2px solid green;
+
+}
+.ul-menu li {
+    display: inline-block;
+    border: 2px solid green;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.rgba-colr{
+    background-color: rgba(0, 20, 200, 0.);
+    min-height: 500px;
+}
+
+.my-element {
+  box-sizing: border-box;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  height: 70px;
+}
+.my-element1 {
+
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 70px;
+  }
+
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor:pointer;
+  } 
+  .header:hover .content{
+    display: block;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
